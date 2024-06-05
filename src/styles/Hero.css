@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .heroWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .carousel {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .carousel .slide img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .sectionsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .heroTile {
+    flex: 1 1 30%;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .heroTile:hover {
+    transform: translateY(-5px);
+  }
+  
+  .helpTitle, .responseTitle, .aboutTitle {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .helpIntro, .responseIntro, .aboutFounder {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .helpText, .responseData, .responseMap, .responseVolunteers, .responseApp {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    color: #777;
+  }
+  
+  .textVideo, .aboutVideo {
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .legend {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
